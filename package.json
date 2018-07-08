@@ -1,0 +1,21 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "Files for my Building a Website with Node & ExpressJS",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "node app/app.js -ignore feedback.json"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "author": "Dhvanit Merchant",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.4.2",
+    "express": "^4.16.3",
+    "reload": "^1.1.7",
+    "socket.io": "^1.4.8"
+  }
+}

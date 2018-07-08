@@ -1,0 +1,25 @@
+{
+  "employees": [{
+    "title" : "Network Administrator",
+    "name": "Naynesh Desai",
+    "shortname" : "Naynesh_Desai",
+    "summary" : "My job inludes taking care of the company technically and helping the other users and every sectors which includes accounting,operation as well as IT.",
+    "description": "<p>In general, a network admin is responsible for the following tasks which include installing network and computer systems. Maintaining, repairing and upgrading network and computer systems. Diagnosing and fixing problems or potential problems with the network and its hardware, software and systems..</p>",
+    "artwork": ["Lorenzo_Garcia_01_tn.jpg", "Lorenzo_Garcia_02_tn.jpg", "Lorenzo_Garcia_03_tn.jpg", "Lorenzo_Garcia_04_tn.jpg"]
+  },{
+    "title" : "Data Operation Specialist",
+    "name": "Parin Patel",
+    "shortname" : "Lorenzo_Garcia",
+    "summary": "I mainly have to deal with the data of the company.My team has to give the reports every week and I have to handle which team member will do which reports and all. ",
+    "description": "<p>The basic duties of an Operations Specialist is to manage the flow of a workplace and optimize day-to-day activities. The role involves tasks like analyzing business operations and identifying customer needs in order to bring the two closer together.</p>",
+    "artwork" : ["Hillary_Goldwynn_01_tn.jpg" , "Hillary_Goldwynn_02_tn.jpg" , "Hillary_Goldwynn_03_tn.jpg" , "Hillary_Goldwynn_04_tn.jpg" , "Hillary_Goldwynn_05_tn.jpg" , "Hillary_Goldwynn_06_tn.jpg" , "Hillary_Goldwynn_07_tn.jpg"]
+  },{
+    "title" : "QA Tester ",
+    "name": "Dilip Ahir",
+    "shortname" : "Dilip_Ahir",
+    "summary": "It has been just few month joining this company but because of my great experience they have  given me many projects to test which includes both application and website development",
+    "description": "<p>Quality Assurance Technicians, or Testers, perform a vital role. They test, tune, debug and suggest the detailed refinements that ensure the quality and playability of the finished game. ... They are responsible for assuring quality in the final product and for finding all the flaws in a game before it goes public</p>",
+    "artwork" : ["Riley_Rewington_01_tn.jpg","Riley_Rewington_02_tn.jpg","Riley_Rewington_03_tn.jpg","Riley_Rewington_04_tn.jpg","Riley_Rewington_05_tn.jpg","Riley_Rewington_06_tn.jpg"]
+  }]
+
+}

@@ -1,0 +1,11 @@
+<article class="sidebar">
+ <h1 class="sidebar-title">InfinitY Work</h1>
+ <p class="sidebar-body">While you attend the company, take a look at the department that and sections which our employees handle.</p>
+ <div class="pixgrid clearfix">
+   <% if (artwork.length > 0) { %>
+   <% for (i=0; i< artwork.length; i++) { %>
+       <img src="/images/artwork/<%= artwork[i] %>" alt="Artwork <%= i %>">
+   <% } %>
+   <% } %>
+ </div>
+</article>
