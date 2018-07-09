@@ -7,7 +7,8 @@
     "start": "nodemon app/app.js -ignore feedback.json"
   },
   "engines": {
-    "node": "0.12.7"
+    "node": "10.5.0",
+    "npm": "6.1.0"
   },
   "author": "Dhvanit Merchant",
   "license": "MIT",
