@@ -19,7 +19,9 @@ app.use(require('./routes/feedback'));
 app.use(require('./routes/api'));
 app.use(require('./routes/chat'));
 
-
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + 'app/app.js');
+});
 
 var server = app.listen(app.get('port'), function() {
   console.log('Listening on port ' + app.get('port'));
