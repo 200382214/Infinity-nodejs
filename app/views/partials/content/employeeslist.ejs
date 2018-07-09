@@ -10,15 +10,15 @@
 
               <% if (pageID == 'home') { %>
 
-                <img class="speakerslist-img img-circle" src="/images/employees/<%= item.shortname %>_tn.jpg" alt="Photo of <%= item.name %>"></a>
+                <img class="speakerslist-img img-circle" src="/images/speakers/<%= item.shortname %>_tn.jpg" alt="Photo of <%= item.name %>"></a>
               <% } %>
 
               <% if (pageID == 'employeelist') { %>
-                <img class="speakerslist-img img-circle pull-left" src="/images/employees/<%= item.shortname %>_tn.jpg" alt="Photo of <%= item.name %>"></a>
+                <img class="speakerslist-img img-circle pull-left" src="/images/speakers/<%= item.shortname %>_tn.jpg" alt="Photo of <%= item.name %>"></a>
               <% } %>
             </a>
             <% if (pageID == 'employeeDetail') { %>
-              <img class="speakerslist-img img-responsive pull-left" src="/images/employees/<%= item.shortname %>.jpg" alt="Photo of <%= item.name %>"></a>
+              <img class="speakerslist-img img-responsive pull-left" src="/images/speakers/<%= item.shortname %>.jpg" alt="Photo of <%= item.name %>"></a>
             <% } %>
           </a>
             <% if (pageID !== 'home') { %>
